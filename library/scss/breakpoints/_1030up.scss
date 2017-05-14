@@ -1,0 +1,59 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Desktop Stylesheet
+
+This is the desktop size. It's larger than an iPad so it will only
+be seen on the Desktop.
+
+******************************************************************/
+
+.wrap {
+  width: 1030px;
+}
+
+
+/******************
+HEADER
+******************/
+
+html.no-touch {
+	.header-nav {
+		font-size: 90%;
+	}
+	
+	.top-nav > li,
+	.header-nav > ul > li {
+		margin-left: 1.5em;
+
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+}
+
+
+
+/*************************
+PAGE-SPECIFIC STYLES
+*************************/
+
+.page-template-page-donate {
+	
+	.article-content-wrapper {
+		padding-bottom: 500px;
+	}
+}
+
+
+.page-template-page-top {
+	
+	.top-page-point {
+		margin-bottom: 8em;
+		
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

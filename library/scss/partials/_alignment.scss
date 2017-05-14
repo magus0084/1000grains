@@ -1,0 +1,99 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Alignment
+
+This file specifies responsive text alignment styles.  Text 
+alignment not only controls the flow of text, but the position of
+elements in the grid.  As a result, these styles are used in
+combination with the grid classes to control object layout.
+
+******************************************************************/
+
+
+/* GENERAL TEXT ALIGN CLASSES
+ * --------------------------
+ * These apply to all screen sizes and are overridden by the media
+ * queries.
+ */
+
+.text-align--center {
+	text-align: center;
+}
+
+.text-align--left {
+	text-align: left;
+}
+
+.text-align--right {
+	text-align: right;
+}
+
+
+
+
+@media screen and (min-width: 481px) {
+    .text-align-sm--center {
+		text-align: center;
+	}
+
+	.text-align-sm--left {
+		text-align: left;
+	}
+
+	.text-align-sm--right {
+		text-align: right;
+	}
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .text-align-md--center {
+		text-align: center;
+	}
+
+	.text-align-md--left {
+		text-align: left;
+	}
+
+	.text-align-md--right {
+		text-align: right;
+	}
+}
+
+
+
+
+@media screen and (min-width: 1030px) {
+    .text-align-lg--center {
+		text-align: center;
+	}
+
+	.text-align-lg--left {
+		text-align: left;
+	}
+
+	.text-align-lg--right {
+		text-align: right;
+	}
+}
+
+
+
+
+@media screen and (min-width: 1240px) {
+    .text-align-xlg--center {
+		text-align: center;
+	}
+
+	.text-align-xlg--left {
+		text-align: left;
+	}
+
+	.text-align-xlg--right {
+		text-align: right;
+	}
+}

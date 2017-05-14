@@ -1,0 +1,75 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Variables
+
+Here is where we declare all our variables like colors, fonts,
+base values, and defaults. We want to make sure this file ONLY
+contains variables that way our files don't get all messy.
+No one likes a mess.
+
+******************************************************************/
+
+/*********************
+COLORS
+Need help w/ choosing your colors? Try this site out:
+http://0to255.com/
+*********************/
+
+$black:             #323944;
+$blue:              #2980b9;
+$bones-pink:        #f01d4f;
+$light-gray:        #f8f9fa;
+$gray:              #eaedf2;
+$gray-dark:			#444444;
+$gray-light:		#b6b6b6;
+$green:             #77bc43;
+$green-light:		#caea99;
+$meta-gray:         #9fa6b4;
+$orange:			#f4821f;
+$tan:               #eceee5;
+$white:             #fff;
+
+$alert-yellow:      #ebe16f;
+$alert-red:         #fbe3e4;
+$alert-green:       #e6efc2;
+$alert-blue:        #d5edf8;
+
+$link-color:        $green;
+$link-hover:        darken($link-color, 9%);
+$link-active:		$orange;
+
+$text-color:        #333333;
+$text-color-p2:		#808080;
+$text-color-footer:	$gray-light;
+
+$quotation-mark-color: 	#ebebeb;
+
+$border-color:      #ccc;
+$disabled-gray:     #cfcfcf;
+
+
+/*
+Here's a great tutorial on how to
+use color variables properly:
+http://sachagreif.com/sass-color-variables/
+*/
+
+
+/************************
+SIZE VALUES
+************************/
+
+$btn-border-radius:			10px;
+$menu-border-radius:		10px;
+$accent-border-radius:		10px;
+$container-border-radius:	15px;
+
+$donation-form-height:		60px;
+
+/************************
+PATHS
+************************/
+
+$img-path:			'../images/'
